@@ -24,19 +24,20 @@
 	<body>
 		<div class="jumpotron content-center">
 			<!-- header -->
-			<h1 class="display-3"> Graphing </h1>
+			<h1 class="display-4"> Graphing </h1>
 			
 			<div class="row d-inline-flex border border-3 rounded border-secondary" style="width: 60%; height: 70vh">
-				<div class="col p-0 one-edge-shadow">
+				<div class="col-5 p-0 one-edge-shadow">
 					<select id="graph_type" class="col" style="background:black; color:white; width:100%; height:10%">
 						<option>Undirected Graph</option>
 						<option>Directed Graph</option>
 					</select>
 		
-					<textarea id="ID" class="col-sm pt-3" style="height: 79%; border: none; resize: none"> </textarea>
+					<textarea id="ID" class="col-sm pt-3" style="height: 79%; border: 0; border-bottom: 1px solid #F0EFF5; resize: none"></textarea>
+					<!--div class="dropdown-divider" style="margin-top:-5px">aaa</div-->
 					<a id="show_button" href="#" class="btn btn-outline-success" style="margin:4px; width: 95%; height: 8%">Draw</a>
 				</div>
-				<div id="graph" class="col content-center p-0 rounded-circle" style=""></div>
+				<div id="graph-content" class="col-6 content-center p-0 rounded-circle" style=""></div>
 			</div>
 		</div>
 		<script src="js/js.js"> </script>

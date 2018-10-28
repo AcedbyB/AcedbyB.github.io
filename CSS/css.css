@@ -15,3 +15,7 @@
 polygon {
 	fill: transparent;
 }
+
+svg {
+  text-align: center;
+}
