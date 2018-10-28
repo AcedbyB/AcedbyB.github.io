@@ -39,22 +39,7 @@
 				<div id="graph" class="col content-center p-0 rounded-circle" style=""></div>
 			</div>
 		</div>
-		
-		<script>
-			console.log($("#ID").val());
-			var i,s;
-			s = "";
-			for(i=1;i<=3;i++)
-				s += i +'[shape="circle"; style="filled"; color="blue"]; '+ i +'[shape="circle"]; '+ i +' -> ' + i + ';';
-				var show = function(){
-					d3.select("#graph").graphviz()
-						.width($("#graph").width())
-						.height($("#graph").height())
-						.fade(false)
-						.renderDot('digraph  {' + s + '}');
-				}
-				 $("#show_button").click(show);
-		</script>
+		<script src="js/js.js"> </script>
 		
 	</body>
 
