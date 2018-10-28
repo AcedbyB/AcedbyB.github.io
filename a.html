@@ -22,11 +22,16 @@
 	</head>
 
 	<body>
-		<div class="jumpotron text-xs-center">
-			<h1 class="display-3" id="headerText"> Graphing </h1>
+		<div class="jumpotron content-center">
+			<!-- header -->
+			<h1 class="display-3"> Graphing </h1>
+			
+			<div class="row d-inline-flex p-2" style="width: 60%; height: 60%">
+				<input type="text" class="col">
+				<div id="graph" class="col content-center" style="background-color:red"></div>
+			</div>
+			
 		</div>
-		
-		<div id="graph" style="text-align: center;"></div>
 		
 		<script>
 			d3.select("#graph").graphviz()
