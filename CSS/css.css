@@ -19,3 +19,7 @@ polygon {
 svg {
   text-align: center;
 }
+
+body {
+	background: "Image/background.png";
+}
