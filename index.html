@@ -130,18 +130,32 @@
 			<article id="contact">
 				<h2 class="major">Contact</h2>
 				<form action="https://formsubmit.co/bttran1809@gmail.com" method="POST">
+					<!-- Honeypot -->
+					<input type="text" name="_honey" style="display: none;">
+
+					<!--Disable Captcha-->
+					<input type="text" name="_captcha" value="false" style="display: none;">
+
 					<div class="fields">
 						<div class="field half">
-							<label for="name">Mobile Phone</label>
-							<input type="text" name="name" id="name" value="(+1) 585 967 9234"/>
+							<label for="first_name">First Name</label>
+							<input type="text" name="first_name" id="first_name"/>
+						</div>
+						<div class="field half">
+							<label for="last_name">Last Name</label>
+							<input type="text" name="last_name" id="last_name"/>
+						</div>
+						<div class="field half">
+							<label for="phone">Mobile Phone</label>
+							<input type="text" name="phone" id="phone"/>
 						</div>
 						<div class="field half">
 							<label for="email">Email</label>
-							<input type="text" name="email" id="email" value = "btran8@u.rochester.edu"/>
+							<input type="text" name="email" id="email"/>
 						</div>
 						<div class="field">
 							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="4"></textarea>
+							<textarea name="message" id="message" rows="3"></textarea>
 						</div>
 					</div>
 					<ul class="actions">
